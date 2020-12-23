@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "358007076134",
+    "firebase_url": "https://fitapp-actipro-default-rtdb.firebaseio.com",
+    "project_id": "fitapp-actipro",
+    "storage_bucket": "fitapp-actipro.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:358007076134:android:04d3d9ce5255a930197de7",
+        "android_client_info": {
+          "package_name": "com.example.fitapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "358007076134-g8mmta04aisnij9edto3k92064gs72af.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAu0OlrQ5qc69yMyWw8vOsReWgaUvdHtWA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "358007076134-g8mmta04aisnij9edto3k92064gs72af.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

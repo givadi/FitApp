@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:id="@+id/frg_help">
+
+    <View
+        android:id="@+id/v_help"
+        android:layout_width="500dp"
+        android:layout_height="1024dp"
+        android:background="@drawable/ic_gradient_background"
+        android:translationY="-483dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+    <LinearLayout
+        android:id="@+id/ll_back_help"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingLeft="20dp"
+        android:paddingTop="43dp"
+        android:paddingRight="20dp"
+        android:paddingBottom="40dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <Button
+            android:id="@+id/iv_button"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:background="@drawable/closing"
+            android:layout_gravity="end"
+            />
+
+                <TextView
+                    android:id="@+id/tv_help_header"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/help_header"
+                    android:textColor="@color/white"
+                    android:textSize="24sp"/>
+
+                <TextView
+                    android:id="@+id/tv_help_sub_header"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/help_sub_header"
+                    android:alpha="0.8"
+                    android:textColor="@color/white"
+                    android:textSize="18sp"/>
+
+
+
+        <TextView
+            android:id="@+id/tv_help_text"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="130dp"
+            android:scrollbars="vertical"
+            android:scrollHorizontally="false"
+            android:text="@string/help_text"
+            android:textColor="@color/text_blue"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
